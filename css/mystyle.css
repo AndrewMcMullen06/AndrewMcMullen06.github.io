@@ -1,0 +1,99 @@
+/*adding attributes to all elements in class 'Header'*/
+.Header	{
+	background-color:rgb(180,180,180);
+	color:black;
+	font-family: "Garamond";
+	font-size:100px;
+	border-style:none none solid;
+	border-width:2px;
+	padding:0;
+	margin:0;
+
+
+/*Styling regarding the navigation of the webpage*/
+}
+.nav {
+	list-style-type:none;
+	background-color:rgb(100,100,100);
+	color:white;
+	text-align:center;
+	padding:15px 0 15px 0;
+	 }
+
+/*Orientating the list so to form horizontal menu with styling*/
+.nav > li {
+	display:inline;
+	padding:0 40px 0 40px;
+	border-style:none solid none solid;
+	border-color:black;
+	border-collapse:collapse;
+}
+
+/*Assigning colours of links in list*/
+.nav > li > a {
+	text-decoration:none;
+	color:rgb(255,255,255);
+}
+
+/*Pseudo class and elements for hovering over links */
+.nav > li > a:hover {
+	color:rgb(80,80,80);
+}
+
+/*manipulation of image*/
+#img01 {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+
+#txt01 {
+	font-family:"Garamond";
+	border-style:solid;
+	color:black;
+	padding:5px;
+	background-color:rgb(255,255,255)	
+}
+
+
+#MN1 {
+	text-align:center;
+	color:white;
+}
+
+.Menu > ul {
+	background-color:white;
+	list-style-type:none;
+}
+
+/*adds scaling*/
+#table {
+	width:100%;
+}
+
+#Abt {
+	text-align:center;
+	color:white;
+	font-size:50px;
+
+}
+
+#history {
+	background-color:white;
+	font-size:30px;
+	color:black;
+	font-family:"Garamond";
+}
+
+/*Styling of main body for content */
+body {
+	background-color:rgb(160,60,60);
+}
+
+/*Styles footer for all pages*/
+footer {
+	background-color:rgb(180,180,180);
+	padding:20px;
+	font-size:15px;
+}
